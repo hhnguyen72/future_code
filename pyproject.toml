@@ -1,0 +1,13 @@
+#python -m pip install -e .
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "src"
+version = "0.0.0"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src"]
