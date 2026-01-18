@@ -21,11 +21,14 @@ SRC_DIR.mkdir(exist_ok=True)
 # ===== CSV FILES (explicit) ===== 
 CSV_FILE = list(DATA_DIR.glob("*.csv"))[0]
 
+# === Columns to Drop === # 
+DROP_COLUMNS = ['source_of_data', 'Unnamed: 19', 'Unnamed: 20']
+
 # ===== ML CONFIG =====
 TARGET_COLUMN = None
 FEATURE_COLUMNS = None
 
-print("Constants set successfully.")
+
 # ===== Archieve =====
 # NOTEBOOK_FILE = NOTEBOOK_DIR / "eda.ipynb"
 # LIBRARY_FILE = SRC_DIR / "library.py"
