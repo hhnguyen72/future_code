@@ -1,6 +1,0 @@
-pyproject.toml
-src/practice.egg-info/PKG-INFO
-src/practice.egg-info/SOURCES.txt
-src/practice.egg-info/dependency_links.txt
-src/practice.egg-info/requires.txt
-src/practice.egg-info/top_level.txt
